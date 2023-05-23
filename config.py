@@ -2,11 +2,11 @@ import os
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6100356965:AAG2vnCLgd9oafuCucqUhURjU05jQa9BG6Q")
     
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", "28196161"))
     
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("API_HASH", "7d82be62e09edfc6b7742e88499fb29b")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
